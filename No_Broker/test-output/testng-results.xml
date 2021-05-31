@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="No Broker" duration-ms="51204" started-at="2021-05-31T15:22:37Z" finished-at="2021-05-31T15:23:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51204" started-at="2021-05-31T15:22:37Z" finished-at="2021-05-31T15:23:28Z">
+      <class name="Project_script.NoBroker">
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:Project_script.NoBroker@55d56113]" name="Beforemethod" is-config="true" duration-ms="23715" started-at="2021-05-31T15:22:37Z" finished-at="2021-05-31T15:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="RentProperty()[pri:0, instance:Project_script.NoBroker@55d56113]" name="RentProperty" duration-ms="27430" started-at="2021-05-31T15:23:00Z" finished-at="2021-05-31T15:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RentProperty -->
+      </class> <!-- Project_script.NoBroker -->
+    </test> <!-- Test -->
+  </suite> <!-- No Broker -->
+</testng-results>

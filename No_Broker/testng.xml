@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="No Broker">
+
+  <test name="Test">
+    <classes>
+      <class name="Project_script.NoBroker">
+        <methods>
+           <include name="RentProperty"/>
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
