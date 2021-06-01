@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="No Broker" duration-ms="51204" started-at="2021-05-31T15:22:37Z" finished-at="2021-05-31T15:23:28Z">
+  <suite name="No Broker" duration-ms="60454" started-at="2021-06-01T06:05:08Z" finished-at="2021-06-01T06:06:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="51204" started-at="2021-05-31T15:22:37Z" finished-at="2021-05-31T15:23:28Z">
+    <test name="Test" duration-ms="60454" started-at="2021-06-01T06:05:08Z" finished-at="2021-06-01T06:06:08Z">
       <class name="Project_script.NoBroker">
-        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:Project_script.NoBroker@55d56113]" name="Beforemethod" is-config="true" duration-ms="23715" started-at="2021-05-31T15:22:37Z" finished-at="2021-05-31T15:23:00Z">
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:Project_script.NoBroker@55d56113]" name="Beforemethod" is-config="true" duration-ms="32361" started-at="2021-06-01T06:05:08Z" finished-at="2021-06-01T06:05:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforemethod -->
-        <test-method status="PASS" signature="RentProperty()[pri:0, instance:Project_script.NoBroker@55d56113]" name="RentProperty" duration-ms="27430" started-at="2021-05-31T15:23:00Z" finished-at="2021-05-31T15:23:28Z">
+        <test-method status="PASS" signature="RentProperty()[pri:0, instance:Project_script.NoBroker@55d56113]" name="RentProperty" duration-ms="28020" started-at="2021-06-01T06:05:40Z" finished-at="2021-06-01T06:06:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RentProperty -->

@@ -29,13 +29,9 @@ public class Generic_key {
 		if(browserName.equals("Mozilla"))
 		{
 			System.out.println("browser name is: "+browserName);
-			System.setProperty("webdriver.gecko.driver", "D:\\SeleniumPractice\\Drivers\\geckodriver.exe");
-			//FirefoxOptions ops=new FirefoxOptions();
-			//FirefoxProfile fb=new FirefoxProfile();
-			//FirefoxDriver fd=new FirefoxDriver(ops);
+			String pathMozilla=System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe";
+			System.setProperty("webdriver.gecko.driver", pathMozilla);
 			
-			//fb.setPreference("dom.webnotifications.enabled", false);
-			//ops.setProfile(fb);
 			driver=new FirefoxDriver();
 			
 		}
@@ -43,7 +39,8 @@ public class Generic_key {
 		{
 			System.out.println("browser name is: "+browserName);
 			//log("browser is opening" +browserName);
-			System.setProperty("webdriver.edge.driver","D:\\SeleniumPractice\\Drivers\\driver\\msedgedriver.exe");
+			String pathEdge=System.getProperty("user.dir")+"\\Drivers\\msedgedriver.exe";
+			System.setProperty("webdriver.edge.driver",pathEdge);
 			 
 			EdgeOptions ed=new EdgeOptions();
 			ed.addArguments("disable-notifications");
